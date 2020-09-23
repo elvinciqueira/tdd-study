@@ -1,0 +1,15 @@
+{
+  "name": "tdd-study",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:elvinciqueira/tdd-study.git",
+  "author": "elvinciqueira <elvinciqueira@zsystems.com.br>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.14",
+    "jest": "^26.4.2"
+  }
+}
