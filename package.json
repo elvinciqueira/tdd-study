@@ -6,7 +6,8 @@
   "author": "elvinciqueira <elvinciqueira@zsystems.com.br>",
   "license": "MIT",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:watch": "jest --watchAll"
   },
   "devDependencies": {
     "@types/jest": "^26.0.14",
