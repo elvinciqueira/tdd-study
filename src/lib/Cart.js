@@ -34,7 +34,7 @@ export default class Cart {
         item.condition.percentage &&
         item.quantity > item.condition.minimum
       ) {
-        discount = amount.percentage();
+        discount = amount.percentage(item.condition.percentage);
       }
 
       return acc.add(amount).subtract(discount);
